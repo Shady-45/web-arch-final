@@ -7,6 +7,7 @@ import { FaTwitter } from "react-icons/fa";
 
 import { FaLinkedin } from "react-icons/fa";
 import { TbX } from "react-icons/tb";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   useEffect(() => {
@@ -20,7 +21,9 @@ const Contact = () => {
             CONTACT US
           </h1>
           <div className="absolute right-[-35rem]">
-            <TbX className="text-blue-300 m-10 hover:border hover:text-2xl  text-2xl cursor-pointer" />
+            <Link to="/">
+              <TbX className="text-blue-300 m-10 hover:border hover:text-2xl  text-2xl cursor-pointer" />
+            </Link>
           </div>
         </div>
         <br />

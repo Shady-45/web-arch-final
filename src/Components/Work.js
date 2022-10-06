@@ -18,6 +18,7 @@ function Work() {
     slidesToShow: 1,
     slidesToScroll: 1,
   };
+
   return (
     <div
       className="bg-black"
